@@ -16,6 +16,6 @@ module.exports = {
     var realname = `${user.user.username.includes(conf.Tag) ? conf.Tag : (conf.Tag2 ? conf.Tag2 : (conf.Tag || ""))} ${name} | ${age}`;
     global.Database.SaveRecord_(message.guild.id,user.id,realname,"İsim Degiştirme")
     user.setNickname(`${realname}`);
-    message.channel.send({embed:{description: `${message.guild.emojis.cache.find(x => x.name === "onayla" || "✅")} \`${realname}\` adlı üyenin ismi Başarıyla değiştirildi.`}});
-    message.react(message.guild.emojis.cache.find(x => x.name === "onayla") || "✅");
+    message.channel.send({embed:{description: `✅ \`${realname}\` adlı üyenin ismi Başarıyla değiştirildi.`}});
+    message.react("✅");
 }};
