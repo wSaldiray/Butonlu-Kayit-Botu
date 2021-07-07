@@ -1,0 +1,14 @@
+{
+  "İnfo": ["Bot Sahibi Nick'i","Sunucu İsmi"],
+  "prefix": "Bot Prefixi",
+  "WelcomeChannel":"Hoşgeldin Mesaj Kanal ID",
+  "RulesChannel":"Kurallar Kanal ID",
+  "Kayıt_Yetkili_Rol": ["Kayıt Yetkili Rol İsmi!","2.Kayıt Yetkili Rol İsmi!"],
+  "Erkek_Rol": ["Erkek Rol ID","2. Erkek Rol ID"],
+  "Kız_Rol": ["Kız Rol ID","2. Kız Rol ID"],
+  "Tag": ["Sunucu Tagınız"],
+  "Tag2": "Tagı Olmıyan Üyeyi Kayıt Etdiğinde Başına gelicek tag",
+  "Yasaklı_Tag": ["Yasaklı Tagınız"],
+  "Kayıtsız_Rol": "Kayıtsız Rol ID",
+  "BotChannel": "Botun Gireceği Ses Kanal ID"
+}
