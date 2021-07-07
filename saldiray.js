@@ -25,3 +25,4 @@ readdirSync("./Events").filter(file => file.endsWith(".js")).forEach(file => {
 client.login(config.Token).then(c => console.log(`Logged in as ${client.user.tag}!`)).catch(err => console.error(`Failed to login to the bot!(config.json)`));
 const mongoose = require("mongoose");
 mongoose.connect(config.MongoURL, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }).then(x => { console.log("Mongoo") }).catch(e => { console.error("İnvalid Mongo URL.(config.json)") });
+//Lütfen oku.md'yi okumadan geçme!
