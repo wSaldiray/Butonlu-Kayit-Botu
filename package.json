@@ -1,0 +1,21 @@
+{
+  "name": "Hello",
+  "version": "0.0.1",
+  "description": "",
+  "main": "saldiray.js",
+  "scripts": {
+    "start": "node saldiray.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"    
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/wSaldiray/Butonlu-Kayit-Botu"
+  },
+  "license": "MIT",
+  "keywords": ["butonlukayitbotu"],
+  "author": "saldiray"
+} 
