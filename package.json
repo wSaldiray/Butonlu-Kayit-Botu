@@ -1,21 +1,17 @@
 {
-  "name": "Hello",
-  "version": "0.0.1",
+  "name": "saldiraybuttonrecord",
+  "version": "1.0.0",
   "description": "",
   "main": "saldiray.js",
-  "scripts": {
-    "start": "node saldiray.js"
-  },
+  "author": "Saldiray",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3"    
-  },
-  "engines": {
-    "node": "12.x"
-  },
-  "repository": {
-    "url": "https://github.com/wSaldiray/Butonlu-Kayit-Botu"
-  },
-  "license": "MIT",
-  "keywords": ["butonlukayitbotu"],
-  "author": "saldiray"
-} 
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.11.8"
+  }
+}  
